@@ -16,6 +16,7 @@ We can set up virtual environment for this application through **virtualenv**, b
   2. no requirement for characters after "@"
   3. character must appear both before and after '@'
   4. no space is not allowed in email
+  5. char is case insensitive
 
 ## snapshot of test case: 'test.email@gmail.com test.email+spam@gmail.com testemail@gmail.com':
 ![overview](tests/overview.png)

@@ -28,6 +28,8 @@ def email_count(emails):
         purified_email = ''
         for i, char in enumerate(email):
             if char not in ('.', '+', '@'):
+                if char.isalpha():
+                    char = char.lower()
                 purified_email += char
             elif char == '@':
                 purified_email += email[i:]
