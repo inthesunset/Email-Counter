@@ -12,12 +12,12 @@ We can set up virtual environment for this application through **virtualenv**, b
   5. The result will show up
 
 ## Email format requirements:
-  1. One and only one "@" must exists for an email
+  1. One and only one "@" must exist for each email
   2. no requirement for characters after "@"
   3. character must appear both before and after '@'
-  4. no space is allowed in email
+  4. no space is not allowed in email
 
-## snapshot of test case: 'test.email@gmail.com test.email+spam@gmail.com testemail@gmail.com ':
+## snapshot of test case: 'test.email@gmail.com test.email+spam@gmail.com testemail@gmail.com':
 ![overview](tests/overview.png)
 ![overview](tests/sample1.png)
 ![overview](tests/test1.png)
